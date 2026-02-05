@@ -1,1 +1,81 @@
-<h1>Hello World Wide Web!</h1>
+<style>
+
+  * { box-sizing: border-box; }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .frame {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px dashed;
+  }
+  
+  .table{
+    background: #d1c7b0;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .silver-bottom{
+    width: 100px;
+    height: 75px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    clip-path: ellipse(50% 140% at 50% 100%);
+  }
+  
+  .orange-middle{
+    width: 70px;
+    height: 20px;
+    background: #ff5500;
+    position: absolute;
+    bottom: 125px;
+    left: 65px;
+  }
+  
+  .orange-body{
+    width: 115px;
+    height: 76px;
+    background: #ff5500;
+    position: absolute;
+    clip-path: polygon(85% 100%, 15% 100%, 0% 0%, 100% 0%);
+    bottom: 144px;
+    left: 43px;
+    filter: drop-shadow(0 0 5px black);
+  }
+  
+  .orange-cap{
+    width: 115px;
+    height: 40px;
+    outline: 2px solid black;
+    background: #ff5500;
+    position: absolute;
+    clip-path: ellipse(50% 50% at 50% 50%);
+    bottom: 200px;
+    left: 43px;
+  }
+
+</style>
+
+
+<div class="frame">
+  <div class="table"></div>
+  <div class="coffee-maker">
+    <div class="silver-bottom"></div>
+    <div class="orange-middle"></div>
+    <div class="orange-body"></div>
+    <div class="orange-cap"></div>
+  </div>
+  
+</div>
