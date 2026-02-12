@@ -42,7 +42,7 @@
   .orange-middle {
     width: 90px;
     height: 22px;
-    background: #ff5500;
+    background: #f25202;
     position: absolute;
     bottom: 85px;
     left: 20px;
@@ -55,11 +55,12 @@
     clip-path: polygon(83% 100%, 17% 100%, 0% 0%, 100% 0%);
     bottom: 106px;
     left: -10px;
+    z-index: 100;
   }
   .orange-cap {
     width: 150px;
     height: 45px;
-    background: #ff5500;
+    background: #f25202;
     position: absolute;
     clip-path: ellipse(50% 50% at 50% 50%);
     bottom: 203px;
@@ -74,6 +75,15 @@
     bottom: 243px;
     left: 55px;
     border-radius: 3px;
+  }
+  .spout {
+    width: 40px;
+    height: 50px;
+    background: #ff5500;
+    position: absolute;
+    bottom: 175px;
+    left: 120px;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
   }
   
   /* ========== CAFE BUSTELO CANS ========== */
@@ -203,6 +213,7 @@
     <div class="orange-cap"></div>
     <div class="handle-base"></div>
     <div class="handle-knob"></div>
+    <div class="spout"></div>
   </div>
   
   <!-- Back Can -->
